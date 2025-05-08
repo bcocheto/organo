@@ -1,0 +1,12 @@
+<section>
+  <button class="favorite-btn" (click)="toggleFavorite()">
+    <span>{{ book().favorite ? "\u2764" : "\u2661" }}</span>
+  </button>
+  <div class="image">
+    <img [src]="book().image" [alt]="book().title" />
+  </div>
+  <div class="info">
+    <h2 class="text-h2">{{ book().title }}</h2>
+    <h3 class="text-h3">{{ book().author }}</h3>
+  </div>
+</section>
