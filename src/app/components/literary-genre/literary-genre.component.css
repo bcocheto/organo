@@ -1,0 +1,37 @@
+.genres {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 160px;
+}
+
+.book-genre {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line--small {
+  width: 32px;
+}
+
+.text-h3 {
+  font-family: var(--font-prata);
+  font-size: 28px;
+  font-weight: var(--font-weight-normal);
+  line-height: 38px;
+  text-align: center;
+}
+
+.text-no-content img {
+  width: 150px;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+
+.text-no-content {
+  text-align: center;
+  margin-top: 16px;
+  color: #3b3b3b;
+  font-size: 20px;
+}

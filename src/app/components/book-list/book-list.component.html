@@ -2,3 +2,6 @@
   <h2 class="title">Minhas Leituras</h2>
   <span class="line line--tall"></span>
 </section>
+@for (genre of genres; track genre) {
+<app-literary-genre [genre]="genre" />
+}
